@@ -2,7 +2,7 @@
 
 Pet project. Bot for basic image manipulations right inside Telegram using aiogram + my full async web server for [pilimg-server](https://github.com/haarnel/pilimg-server). It works pretty well, but requires a lot of validations + throttling settings before upload it to production server.
 
-Demo: https://vimeo.com/582540139
+Demo: [Watch](https://vimeo.com/582540139)
 
 ## Installation  (Docker)
 
