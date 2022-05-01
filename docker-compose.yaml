@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+    server:
+        image: haarnel/image-process-server
+        container_name: image-process-server
+        ports:
+            - "8080"
+    bot:
+        build:
+            context: .
+            dockerfile: docker/Dockerfile
+        container_name: picwitch-bot
